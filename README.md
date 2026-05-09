@@ -12,33 +12,6 @@
 - `package.json#engines.node`: `>=20 <=22`
 - `.node-version`: `22`
 
-## 本地运行
-
-在项目目录：
-
-```bash
-cd /Users/gaolanhuicheng/Documents/notes/note-tidy-react
-npm install
-npm run dev
-```
-
-浏览器打开：
-- `http://127.0.0.1:5173`
-
-健康检查：
-```bash
-curl http://127.0.0.1:5174/api/health
-```
-
-## 构建（生产）
-
-```bash
-npm run build
-```
-
-产物：
-- 前端：`dist/`
-- 后端：`dist-server/`
 
 ## 生产启动（单进程同时提供前端与后端）
 
