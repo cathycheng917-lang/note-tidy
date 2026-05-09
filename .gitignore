@@ -1,0 +1,22 @@
+node_modules
+dist
+dist-server
+.env
+.env.*
+
+# OS
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local caches
+.vite
+
+# Accidental large artifacts (we keep server/tessdata/*.traineddata tracked)
+/*.traineddata
+/*.traineddata.gz
+
